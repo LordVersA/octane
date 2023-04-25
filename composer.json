@@ -1,16 +1,19 @@
 {
-    "name": "laravel/octane",
-    "description": "Supercharge your Laravel application's performance.",
+    "name": "lordversa/octane-custom-status-code",
+    "description": "Supercharge your Laravel application's performance and support custom status codes",
     "keywords": ["laravel", "octane", "roadrunner", "swoole"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/octane/issues",
-        "source": "https://github.com/laravel/octane"
+        "issues": "https://github.com/LordVersA/octane/issues",
+        "source": "https://github.com/LordVersA/octane"
     },
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },{
+            "name": "Parsa Radfar",
+            "email": "parsa.plus@gmail.com"
         }
     ],
     "require": {
@@ -40,12 +43,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravel\\Octane\\": "src"
+            "Lordversa\\Octane\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\Octane\\Tests\\": "tests"
+            "Lordversa\\Octane\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +62,10 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Octane\\OctaneServiceProvider"
+                "Lordversa\\Octane\\OctaneServiceProvider"
             ],
             "aliases": {
-                "Octane": "Laravel\\Octane\\Facades\\Octane"
+                "Octane": "Lordversa\\Octane\\Facades\\Octane"
             }
         }
     },
