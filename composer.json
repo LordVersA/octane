@@ -43,12 +43,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Lordversa\\Octane\\": "src"
+            "Laravel\\Octane\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lordversa\\Octane\\Tests\\": "tests"
+            "Laravel\\Octane\\Tests\\": "tests"
         }
     },
     "scripts": {
